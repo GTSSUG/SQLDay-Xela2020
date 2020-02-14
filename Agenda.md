@@ -2,14 +2,14 @@
 # SQL Day - Xela 2020
 
 # Agenda
->## Apertura
+## Apertura
 Hora | Actividad |
 --- | --- |
 07:30 - 08:00 AM | Registro
 08:00 - 08:20 AM | Bienvenida / Keynote
 08:20 - 08:30 AM | Coffee break - Cortesía de [Lec Computacion](http://www.leccomputacion.com)
 
->## Primer bloque 
+## Primer bloque 
 Hora | Sesion | Speaker |
 --- | --- | --- |
 08:30 - 09:30 AM | Introduccion a containers con Docker | Marlon Coti
@@ -17,25 +17,25 @@ Hora | Sesion | Speaker |
 10:45 - 11:45 AM | Análisis de datos con PowerBI y SQL Server | Vicente Suc
 11:45 - 12:00 PM | Preguntas / Anuncios | Todos
 
->## Almuerzo
+## Almuerzo
 Hora | Actividad
 --- | --- 
 12:00 - 01:00 PM | Lunch - Cortesía de [Internet Society - Capítulo Guatemala](https://www.isoc.org.gt)
 
->## Segundo bloque
+## Segundo bloque
 
 Hora | Sesion | Speaker |
 --- | --- | --- |
 01:00 - 02:00 PM | Cloud Computing con Microsoft Azure | Jose Ordoñez
 02:00 - 03:00 PM | Conociendo la plataforma .NET Core | Geovani De Leon
 
->## Workshop
+## Workshop
 
 Hora | Actividad
 --- | --- 
 03:00 - 04:00 PM | Taller practico sobre Docker / SQL Server
 
->## Cierre
+## Cierre
 Hora | Actividad 
 --- | --- 
 04:00 - 04:10 PM | Coffee break - Cortesía de [GTSSUG](http://facebook.com/groups/gtssug/)
