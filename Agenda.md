@@ -12,9 +12,9 @@ Hora | Actividad |
 Hora | Sesion | Speaker |
 --- | --- | --- |
 08:30 - 09:30 AM | Introducción a containers con Docker | Marlon Coti
-09:30 - 10:45 AM | SQL Server - La plataforma de datos moderna | Carlos Lopez
-10:45 - 11:45 AM | Análisis de datos con PowerBI y SQL Server | Vicente Suc
-11:45 - 12:00 PM | Preguntas / Anuncios | Todos
+09:30 - 10:30 AM | SQL Server - La plataforma de datos moderna | Carlos Lopez
+10:30 - 11:30 AM | Análisis de datos con PowerBI y SQL Server | Vicente Suc
+11:30 - 12:00 PM | Sociedad de la Internet capítulo Guatemala | Manuel Rodas
 
 ## Almuerzo
 Hora | Actividad
