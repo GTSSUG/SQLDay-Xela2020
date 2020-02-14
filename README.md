@@ -66,7 +66,7 @@ El almuerzo sera proporcionado de forma gratuita, gracias a [Internet Society - 
 Habrán premios para los asistentes del evento, es requisito estar presente durante la rifa.
 
 # ¿Dudas? 
-Para más información y registro de este evento click [aqui](https://sqlconnect_2019.eventbrite.com).  
+Para más información y registro de este evento click [aqui](https://gtssug-sqlday-xela2020.eventbrite.com).  
 Síguenos en [Facebook](https://www.facebook.com/groups/gtssug/) para conocer más acerca de este y otros eventos.
 
 # Síguenos
