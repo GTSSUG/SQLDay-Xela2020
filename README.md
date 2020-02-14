@@ -11,6 +11,13 @@ Para obtener más información específica sobre la agenda y presentaciones, con
 * [Agenda](Agenda.md)
 * [Presentaciones](Presentaciones/README.md)
 
+# Tecnologías a desarrollar
+* Microsoft Azure
+* SQL Server
+* Power BI
+* .NET Core
+* Docker
+
 # Sponsors
 Un agradecimiento especial a nuestros patrocinadores, sin ellos este evento no sería posible.
 
