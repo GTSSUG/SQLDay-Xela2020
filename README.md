@@ -30,7 +30,10 @@ Distribuidor exclusivo de IBM. Ofreciendo servicios de infraestructura, software
 MSSQLTips.com is a free community dedicated to SQL Server.  Since 2006 our team has delivered value to millions of SQL Server DBAs, Developers and Business Intelligence Professionals on a daily basis. MSSQLTips.com helps solve real world problems and improve your SQL Server knowledge with free tips, tutorials, web casts, videos and more. 
 
 * [RedGate](https://www.red-gate.com)  
-Redgate Software is a software company based in Cambridge, England. It develops tools for developers and data professionals and maintains community websites such as SQL Server Central and Simple Talk. 
+Redgate Software is a software company based in Cambridge, England. It develops tools for developers and data professionals and maintains community websites such as SQL Server Central and Simple Talk.
+
+* [SentryOne](https://www.sentryone.com)
+SentryOne empowers the Microsoft data professional to achieve breakthrough performance across physical, virtual and cloud environments.
 
 # Logística 
 Gracias al aporte de nuestros patrocinadores, este evento será **totalmente GRATUITO**, así que únicamente tienes que asistir al evento!
