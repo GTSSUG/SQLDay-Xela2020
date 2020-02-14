@@ -14,7 +14,7 @@ Hora | Sesion | Speaker |
 08:15 - 09:15 AM | Introducción a containers con Docker | Marlon Coti
 09:15 - 10:15 AM | SQL Server - La plataforma de datos moderna | Carlos Lopez
 10:15 - 11:15 AM | Análisis de datos con PowerBI y SQL Server | Vicente Suc
-11:15 - 11:45 PM | Que es DevOps? | Jose Ordoñez
+11:15 - 11:45 PM | DevOps una cultura que permite escalar la agilidad | Yolanda López
 11:45 - 12:00 PM | Sociedad de la Internet capítulo Guatemala | Manuel Rodas
 
 ## Almuerzo
