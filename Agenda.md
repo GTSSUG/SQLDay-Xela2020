@@ -37,7 +37,7 @@ Hora | Actividad
 ## Cierre
 Hora | Actividad 
 --- | --- 
-04:00 - 04:10 PM | Coffee break - Cortesía de [GTSSUG](http://facebook.com/groups/gtssug/)
+04:00 - 04:10 PM | Coffee break - Cortesía de [Guatemala SQL Server User Group](http://facebook.com/groups/gtssug/)
 04:10 - 04:30 PM | Cierre del evento / Rifa
 
 # ¿Dudas?
