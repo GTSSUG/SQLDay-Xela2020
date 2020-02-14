@@ -1,6 +1,14 @@
 ![Header](images/header.jpg)
 
 Nuestro objetivo es compartir diferentes tecnologías y herramientas, que ayuden a los estudiantes / asistentes a desarrollar una plataforma moderna utilizando diferentes tecnologías tales como Microsoft Azure, SQL Server, Power BI, .NET Core y Docker.
+# Día, lugar y hora
+Sábado 7 de Marzo del 2020
+
+**Universidad Mesoamericana** - **Auditorio (Campus zona 3)**  
+3ª calle 14-36 y 14-03 Zona 3 - Quezaltenango, Quezaltenango  
+Guatemala
+
+Este evento dara inicio a las 07:30 AM, finalizando a las 4:30 PM.
 
 # ¿Qué puedes esperar de este evento?
 * Acceso a información detallada sobre tecnologías Microsoft Azure, SQL Server, PowerBI y .NET Core
