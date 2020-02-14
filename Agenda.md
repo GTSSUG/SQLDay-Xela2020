@@ -1,7 +1,6 @@
 ![Header](images/header.jpg)
-# SQL Day - Xela 2020
+# SQL Day - Xela 2020 > Agenda
 
-# Agenda
 ## Apertura
 Hora | Actividad |
 --- | --- |
