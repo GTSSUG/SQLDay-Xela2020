@@ -5,16 +5,17 @@
 Hora | Actividad |
 --- | --- |
 07:30 - 08:00 AM | Registro
-08:00 - 08:20 AM | Bienvenida / Keynote
-08:20 - 08:30 AM | Coffee break - Cortesía de [Lec Computación](http://www.leccomputacion.com)
+08:00 - 08:10 AM | Bienvenida / Keynote
+08:10 - 08:15 AM | Coffee break - Cortesía de [Lec Computación](http://www.leccomputacion.com)
 
 ## Primer bloque 
 Hora | Sesion | Speaker |
 --- | --- | --- |
-08:30 - 09:30 AM | Introducción a containers con Docker | Marlon Coti
-09:30 - 10:30 AM | SQL Server - La plataforma de datos moderna | Carlos Lopez
-10:30 - 11:30 AM | Análisis de datos con PowerBI y SQL Server | Vicente Suc
-11:30 - 12:00 PM | Sociedad de la Internet capítulo Guatemala | Manuel Rodas
+08:15 - 09:15 AM | Introducción a containers con Docker | Marlon Coti
+09:15 - 10:15 AM | SQL Server - La plataforma de datos moderna | Carlos Lopez
+10:15 - 11:15 AM | Análisis de datos con PowerBI y SQL Server | Vicente Suc
+11:15 - 11:45 PM | Que es DevOps? | Jose Ordoñez
+11:45 - 12:00 PM | Sociedad de la Internet capítulo Guatemala | Manuel Rodas
 
 ## Almuerzo
 Hora | Actividad
@@ -25,8 +26,9 @@ Hora | Actividad
 
 Hora | Sesion | Speaker |
 --- | --- | --- |
-01:00 - 02:00 PM | Cloud Computing con Microsoft Azure | Jose Ordoñez
-02:00 - 03:00 PM | Conociendo la plataforma .NET Core | Geovani De León
+01:00 - 02:00 PM | Conociendo la plataforma .NET Core | Geovani De León
+02:00 - 03:00 PM | Cloud Computing con Microsoft Azure | Jose Ordoñez
+
 
 ## Workshop
 
