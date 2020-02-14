@@ -6,7 +6,7 @@ Hora | Actividad |
 --- | --- |
 07:30 - 08:00 AM | Registro
 08:00 - 08:20 AM | Bienvenida / Keynote
-08:20 - 08:30 AM | Coffee break - Cortesía de [Lec Computacion](http://www.leccomputacion.com)
+08:20 - 08:30 AM | Coffee break - Cortesía de [Lec Computación](http://www.leccomputacion.com)
 
 ## Primer bloque 
 Hora | Sesion | Speaker |
