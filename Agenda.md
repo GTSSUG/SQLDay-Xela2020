@@ -41,7 +41,7 @@ Hora | Actividad
 04:10 - 04:30 PM | Cierre del evento / Rifa
 
 # ¿Dudas?
-Para más información y registro de este evento click [aqui](https://sqlconnect_2019.eventbrite.com).  
+Para más información y registro de este evento click [aqui](https://gtssug-sqlday-xela2020.eventbrite.com).  
 Seguinos en [Facebook](https://www.facebook.com/groups/gtssug/) para conocer mas acerca de este y otros eventos.
 
 # Siguenos
