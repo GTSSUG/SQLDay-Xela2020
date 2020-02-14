@@ -1,16 +1,10 @@
 ![Header](images/header.jpg)
-# SQLConnect (@Tec)
-```
-[Code].{Build}.Connect();
-```
-
-[Guatemala SQL Server User Group](https://www.facebook.com/groups/gtssug/), se ha unido con los líderes de las comunidades [Docker](https://www.meetup.com/Docker-Guatemala/), [Kubernetes](https://www.facebook.com/groups/k8s.gt/) y [Azure Guatemala](https://www.facebook.com/groups/azuregt/) para presentarles este evento gratuito.
 
 Nuestro objetivo es compartir diferentes tecnologías y herramientas, que le ayudaran a desarrollar una plataforma moderna utilizando diferentes metodologías y servicios tales como Docker, Kubernetes, SQL Server y Azure.
 
 # ¿Qué puede esperar de este evento?
-* Socialización y aprendizaje al lado de los líderes de las comunidades tecnológicas más grandes de Guatemala
-* Acceso a la capacitación específica desarrollada por expertos
+* Acceso a informacion detallada sobre tecnologias Microsoft Azure, SQL Server, PowerBI y .NET Core
+* Mucho aprendizaje al lado de ingenieros expertos de las comunidades tecnológicas más grandes de Guatemala
 * ¡Mucha diversión y premios!
 
 Para obtener más información específica sobre la agenda y presentaciones, consulta acá:
@@ -21,10 +15,14 @@ Para obtener más información específica sobre la agenda y presentaciones, con
 Un agradecimiento especial a nuestros patrocinadores, sin ellos este evento no sería posible.
 
 ## Locales
-* [Datum](https://www.datum.com.gt/)  
+
+* [Universidad Mesoamericana](https://www.datum.com.gt/)  
 Empresa de consultoría especializada en plataformas cloud: DevOps, infraestructura como código, contenedores y bases de datos.
 
-* [GBM](https://www.gbm.net)  
+* [LEC Computacion](https://www.datum.com.gt/)  
+Empresa de consultoría especializada en plataformas cloud: DevOps, infraestructura como código, contenedores y bases de datos.
+
+* [Sociedad del Internet](https://www.gbm.net)  
 Distribuidor exclusivo de IBM. Ofreciendo servicios de infraestructura, software y servicios de TI.
 
 ## Internacionales
@@ -34,21 +32,17 @@ MSSQLTips.com is a free community dedicated to SQL Server.  Since 2006 our team 
 * [RedGate](https://www.red-gate.com)  
 Redgate Software is a software company based in Cambridge, England. It develops tools for developers and data professionals and maintains community websites such as SQL Server Central and Simple Talk. 
 
-* [Windocks](https://windocks.com)  
-Windocks delivers SQL Server containers with production database clones for Azure devops pipelines. Use Windocks to deploy production data environments for all your QA and staging environments.
-
 # Logística 
 Gracias al aporte de nuestros patrocinadores, este evento será **totalmente GRATUITO**, así que únicamente tienes que asistir al evento!
 
 Estas son algunas consideraciones especiales:
 
-
 ### Parqueo
-Esta vez no tendremos parqueo de cortesía, recomendamos usar Uber o ya sea parquear a los alrededores de 4 grados norte.
+La Universidad Mesoamericana cuenta con amplio parqueo, la tarifa unica para el dia del evento sera de Q 10.
 
 ### Comida
-Tendremos dos coffee breaks en el transcurso del día cortesía de [Datum](https://www.datum.com.gt/) y [GBM](https://www.gbm.net).   
-Para el almuerzo, GTSSUG te invita a degustar un delicioso **Shuko**!!
+Tendremos dos coffee breaks en el transcurso del día cortesía de [Lec Computacion](http://www.leccomputacion.com) y [GTSSUG](http://facebook.com/groups/gtssug/).   
+El almuerzo sera proporcionado de forma gratuita, gracias a [Internet Society - Capítulo Guatemala](https://www.isoc.org.gt)!!
 
 ### Rifa
 Habrán premios para los asistentes del evento, es requisito estar presente durante la rifa.
@@ -57,5 +51,5 @@ Habrán premios para los asistentes del evento, es requisito estar presente dura
 Para más información y registro de este evento click [aqui](https://sqlconnect_2019.eventbrite.com).  
 Seguinos en [Facebook](https://www.facebook.com/groups/gtssug/) para conocer más acerca de este y otros eventos.
 
-# Follow us
+# Siguenos
 [![N|Solid](http://dbamastery.com/wp-content/uploads/2018/08/if_twitter_circle_color_107170.png)](https://twitter.com/gtssug) [![N|Solid](http://dbamastery.com/wp-content/uploads/2018/08/if_github_circle_black_107161.png)](https://github.com/GTSSUG)[![N|Solid](http://dbamastery.com/wp-content/uploads/2018/08/if_browser_1055104.png)](https://www.facebook.com/groups/gtssug/)
