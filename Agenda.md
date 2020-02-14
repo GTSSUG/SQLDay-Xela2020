@@ -11,7 +11,7 @@ Hora | Actividad |
 ## Primer bloque 
 Hora | Sesion | Speaker |
 --- | --- | --- |
-08:30 - 09:30 AM | Introduccion a containers con Docker | Marlon Coti
+08:30 - 09:30 AM | Introducción a containers con Docker | Marlon Coti
 09:30 - 10:45 AM | SQL Server - La plataforma de datos moderna | Carlos Lopez
 10:45 - 11:45 AM | Análisis de datos con PowerBI y SQL Server | Vicente Suc
 11:45 - 12:00 PM | Preguntas / Anuncios | Todos
@@ -26,13 +26,13 @@ Hora | Actividad
 Hora | Sesion | Speaker |
 --- | --- | --- |
 01:00 - 02:00 PM | Cloud Computing con Microsoft Azure | Jose Ordoñez
-02:00 - 03:00 PM | Conociendo la plataforma .NET Core | Geovani De Leon
+02:00 - 03:00 PM | Conociendo la plataforma .NET Core | Geovani De León
 
 ## Workshop
 
 Hora | Actividad
 --- | --- 
-03:00 - 04:00 PM | Taller practico sobre Docker / SQL Server
+03:00 - 04:00 PM | Taller práctico sobre Docker / SQL Server
 
 ## Cierre
 Hora | Actividad 
