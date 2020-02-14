@@ -7,8 +7,8 @@ Sesion | Speaker
 Introduccion a containers con Docker | [Marlon Coti](./files/)
 SQL Server - La plataforma de datos moderna | [Carlos Lopez](./files/)
 Análisis de datos con PowerBI y SQL Server | [Vicente Suc](./files/)
-Conociendo la plataforma .NET Core | [Geovani De Leon](./files/)
 Cloud Computing con Microsoft Azure | [Jose Ordoñez](./files/)
+Conociendo la plataforma .NET Core | [Geovani De Leon](./files/)
 
 # ¿Dudas?
 Para más información y registro de este evento click [aqui](https://sqlconnect_2019.eventbrite.com).  
