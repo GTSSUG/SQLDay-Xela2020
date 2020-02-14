@@ -24,7 +24,7 @@ Para obtener más información específica sobre la agenda y presentaciones, con
 * SQL Server
 * Power BI
 * .NET Core
-* Docker
+* DevOps
 
 # Sponsors
 Un agradecimiento especial a nuestros patrocinadores, sin ellos este evento no sería posible.
