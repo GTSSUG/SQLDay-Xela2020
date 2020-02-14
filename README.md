@@ -1,6 +1,6 @@
 ![Header](images/header.jpg)
 
-Nuestro objetivo es compartir diferentes tecnologías y herramientas, que le ayudaran a desarrollar una plataforma moderna utilizando diferentes metodologías y servicios tales como Docker, Kubernetes, SQL Server y Azure.
+Nuestro objetivo es compartir diferentes tecnologias y herramientas, que ayuden a los estudiantes / asistentes a desarrollar una plataforma moderna utilizando diferentes tecnologías tales como Microsoft Azure, SQL Server, Power BI, .NET Core y Docker.
 
 # ¿Qué puedes esperar de este evento?
 * Acceso a informacion detallada sobre tecnologias Microsoft Azure, SQL Server, PowerBI y .NET Core
