@@ -31,14 +31,14 @@ Un agradecimiento especial a nuestros patrocinadores, sin ellos este evento no s
 
 ## Locales
 
-* [Universidad Mesoamericana](https://www.datum.com.gt/)  
+* [Universidad Mesoamericana](https://www.mesoamericana.edu.gt)  
 Empresa de consultoría especializada en plataformas cloud: DevOps, infraestructura como código, contenedores y bases de datos.
 
 * [LEC Computacion](https://www.datum.com.gt/)  
-Empresa de consultoría especializada en plataformas cloud: DevOps, infraestructura como código, contenedores y bases de datos.
+Empresa especializada en brindar servicios de consultoría y outsourcing en la implementación de Proyectos de Integración Tecnológica (PIT), fomentando el adecuado uso de las Tecnologías de la Información y de la Comunicación (TIC) en los procesos de enseñanza-aprendizaje, así como la implementación adecuada de plataformas que facilitan la administración de las instituciones dedicadas a la enseñanza.
 
-* [Sociedad del Internet](https://www.gbm.net)  
-Distribuidor exclusivo de IBM. Ofreciendo servicios de infraestructura, software y servicios de TI.
+* [Sociedad del Internet](https://www.isoc.org.gt)  
+ISOC Guatemala es el capítulo guatemalteco de la Internet Society, una organización mundial de voluntarios para la inclusión	digital y la promoción de políticas publicas para desarrollo de Internet con estabilidad, accesibilidad, seguridad y disponibilidad de contenidos de calidad y pertinencia.
 
 ## Internacionales
 * [MSSQL Tips](https://www.mssqltips.com)  
