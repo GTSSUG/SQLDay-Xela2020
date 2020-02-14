@@ -32,7 +32,7 @@ MSSQLTips.com is a free community dedicated to SQL Server.  Since 2006 our team 
 * [RedGate](https://www.red-gate.com)  
 Redgate Software is a software company based in Cambridge, England. It develops tools for developers and data professionals and maintains community websites such as SQL Server Central and Simple Talk.
 
-* [SentryOne](https://www.sentryone.com)
+* [SentryOne](https://www.sentryone.com)  
 SentryOne empowers the Microsoft data professional to achieve breakthrough performance across physical, virtual and cloud environments.
 
 # Logística 
