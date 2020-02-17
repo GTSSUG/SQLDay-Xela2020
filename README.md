@@ -32,7 +32,7 @@ Un agradecimiento especial a nuestros patrocinadores, sin ellos este evento no s
 ## Locales
 
 * [Universidad Mesoamericana](https://www.mesoamericana.edu.gt)  
-Empresa de consultoría especializada en plataformas cloud: DevOps, infraestructura como código, contenedores y bases de datos.
+Institución salesiana de Educación Superior.
 
 * [LEC Computacion](https://www.datum.com.gt/)  
 Empresa especializada en brindar servicios de consultoría y outsourcing en la implementación de Proyectos de Integración Tecnológica (PIT), fomentando el adecuado uso de las Tecnologías de la Información y de la Comunicación (TIC) en los procesos de enseñanza-aprendizaje, así como la implementación adecuada de plataformas que facilitan la administración de las instituciones dedicadas a la enseñanza.
