@@ -1,5 +1,5 @@
 
-![Header](images/header.jpg)
+![Header](./images/header.jpg)
 
 Nuestro objetivo es compartir diferentes tecnologías y herramientas, que ayuden a los estudiantes / asistentes a desarrollar una plataforma moderna utilizando diferentes tecnologías tales como Microsoft Azure, SQL Server, Power BI, .NET Core y Docker.
 # Día, lugar y hora
