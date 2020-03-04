@@ -23,7 +23,7 @@ Por favor completa estos pasos en tu computadora personal antes de asistir al ev
 | Sistema |  Link |
 |---------|-------|
 |Windows Home | [Docker Toolbox](https://github.com/docker/toolbox/releases)|
-
+|------------|-------------|
 |Windows Pro |  [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows/)|
 
 |Linux |       [Docker en Linux](https://runnable.com/docker/install-docker-on-linux)|
