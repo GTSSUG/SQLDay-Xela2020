@@ -7,8 +7,10 @@ Sesion | Speaker
 Introduccion a containers con Docker | [Marlon Coti](./files/)
 SQL Server - La plataforma de datos moderna | [Carlos Lopez](./files/)
 Análisis de datos con PowerBI y SQL Server | [Vicente Suc](./files/)
+DevOps una cultura que permite escalar la agilidad | [Yolanda López](./files/)
 Cloud Computing con Microsoft Azure | [Jose Ordoñez](./files/)
 Conociendo la plataforma .NET Core | [Geovani De Leon](./files/)
+
 
 # ¿Dudas? 
 Para más información y registro de este evento click [aqui](https://gtssug-sqlday-xela2020.eventbrite.com).  
