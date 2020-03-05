@@ -1,74 +1,32 @@
+![Header](images/header.jpg)
+# Guia para la preparación del laboratorio
 
-![Header](../images/header.jpg)
+- Este laboratorio puede ser llevado a cabo en cualquier maquina que soporte Docker.
+- Tu maquina puede estar corriendo Windows o Linux.
+- Todo el laboratorio esta basado en software que puede ser bajado gratuitamente desde el sitio de Docker y Visual Studio Code.
 
-Nuestro objetivo es compartir diferentes tecnologías y herramientas, que ayuden a los estudiantes / asistentes a desarrollar una plataforma moderna utilizando diferentes tecnologías tales como Microsoft Azure, SQL Server, Power BI, .NET Core y Docker.
-# Día, lugar y hora
-Sábado 7 de Marzo del 2020
+## Pasos para la preparacion del laboratorio
 
-**Universidad Mesoamericana** - **Auditorio (Campus zona 3)**  
-3ª calle 14-36 y 14-03 Zona 3 - Quezaltenango, Quezaltenango  
-Guatemala
 
-Este evento dara inicio a las 07:30 AM, finalizando a las 4:30 PM.
+Por favor completa estos pasos en tu computadora personal antes de asistir al evento, esto ayudara a agilizar el laboratorio y te ayudara a tener mas tiempo para trabajar en el ejercicio.
+#
+1. Descarga e instala [Visual Studio Code](https://code.visualstudio.com/), Te servira como editor de codigo.
 
-# ¿Qué puedes esperar de este evento?
-* Acceso a información detallada sobre tecnologías Microsoft Azure, SQL Server, PowerBI y .NET Core
-* Mucho aprendizaje al lado de ingenieros expertos de las comunidades tecnológicas más grandes de Guatemala
-* ¡Mucha diversión y premios!
+![VS Code Screen](https://azurecomcdn.azureedge.net/cvt-453347b70b4e6e4007999f04bf1804aa2ca553811c77d7d7f8841c55e8e5a409/images/page/products/visual-studio-code/vs-code_hero.jpg)
+#
+2. Crea una cuenta en  [Docker](https://docker.com).
 
-Para obtener más información específica sobre la agenda y presentaciones, consulta acá:
-* [Agenda](Agenda.md)
-* [Presentaciones](Presentaciones/README.md)
+![Docker Account](https://media.linuxsecurity.com/images/dockerhub.png)
+#
+3. Descarga e instala [Docker](https://docker.com), selecciona tu sistema operativo y has click en cada guia.
+tambien existe un laboratorio virtual en caso desees hacerlo en linea.
 
-# Tecnologías a desarrollar
-* Microsoft Azure
-* SQL Server
-* Power BI
-* .NET Core
-* DevOps
+| Sistema |  Link |
+|---------|-------|
+|Windows Home | [Docker Toolbox](https://github.com/docker/toolbox/releases)|
+|Windows Pro |  [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows/)|
+|Linux |       [Docker en Linux](https://runnable.com/docker/install-docker-on-linux)|
+|Virtual Lab |   [play with docker](https://labs.play-with-docker.com)|
 
-# Sponsors
-Un agradecimiento especial a nuestros patrocinadores, sin ellos este evento no sería posible.
-
-## Locales
-
-* [Universidad Mesoamericana](https://www.mesoamericana.edu.gt)  
-Institución salesiana de Educación Superior.
-
-* [LEC Computacion](https://www.datum.com.gt/)  
-Empresa especializada en brindar servicios de consultoría y outsourcing en la implementación de Proyectos de Integración Tecnológica (PIT), fomentando el adecuado uso de las Tecnologías de la Información y de la Comunicación (TIC) en los procesos de enseñanza-aprendizaje, así como la implementación adecuada de plataformas que facilitan la administración de las instituciones dedicadas a la enseñanza.
-
-* [Sociedad del Internet](https://www.isoc.org.gt)  
-ISOC Guatemala es el capítulo guatemalteco de la Internet Society, una organización mundial de voluntarios para la inclusión	digital y la promoción de políticas publicas para desarrollo de Internet con estabilidad, accesibilidad, seguridad y disponibilidad de contenidos de calidad y pertinencia.
-
-## Internacionales
-* [MSSQL Tips](https://www.mssqltips.com)  
-MSSQLTips.com is a free community dedicated to SQL Server.  Since 2006 our team has delivered value to millions of SQL Server DBAs, Developers and Business Intelligence Professionals on a daily basis. MSSQLTips.com helps solve real world problems and improve your SQL Server knowledge with free tips, tutorials, web casts, videos and more. 
-
-* [Redgate](https://www.red-gate.com)  
-Redgate Software is a software company based in Cambridge, England. It develops tools for developers and data professionals and maintains community websites such as SQL Server Central and Simple Talk.
-
-* [SentryOne](https://www.sentryone.com)  
-SentryOne empowers the Microsoft data professional to achieve breakthrough performance across physical, virtual and cloud environments.
-
-# Logística 
-Gracias al aporte de nuestros patrocinadores, este evento será **totalmente GRATUITO**, así que únicamente tienes que asistir al evento!
-
-Estas son algunas consideraciones especiales:
-
-### Parqueo
-La Universidad Mesoamericana cuenta con amplio parqueo, la tarífa unica para el día del evento sera de Q 10.
-
-### Comida
-Tendremos dos coffee breaks en el transcurso del día cortesía de [Lec Computación](http://www.leccomputacion.com) y [GTSSUG](http://facebook.com/groups/gtssug/).   
-El almuerzo sera proporcionado de forma gratuita, gracias a [Internet Society - Capítulo Guatemala](https://www.isoc.org.gt)!!
-
-### Rifa
-Habrán premios para los asistentes del evento, es requisito estar presente durante la rifa.
-
-# ¿Dudas? 
-Para más información y registro de este evento click [aqui](https://gtssug-sqlday-xela2020.eventbrite.com).  
-Síguenos en [Facebook](https://www.facebook.com/groups/gtssug/) para conocer más acerca de este y otros eventos.
-
-# Síguenos
-[![N|Solid](http://dbamastery.com/wp-content/uploads/2018/08/if_twitter_circle_color_107170.png)](https://twitter.com/gtssug) [![N|Solid](http://dbamastery.com/wp-content/uploads/2018/08/if_github_circle_black_107161.png)](https://github.com/GTSSUG)[![N|Solid](http://dbamastery.com/wp-content/uploads/2018/08/if_browser_1055104.png)](https://www.facebook.com/groups/gtssug/)
+Estas Listo!
+Esperamos verte ahi!
