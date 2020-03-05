@@ -1,4 +1,4 @@
-![Header](images/header.jpg)
+![Header](../images/header.jpg)
 # Guia para la preparación del laboratorio
 
 - Este laboratorio puede ser llevado a cabo en cualquier maquina que soporte Docker.
