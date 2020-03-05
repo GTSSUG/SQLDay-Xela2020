@@ -32,9 +32,7 @@ Estos son los links de descarga, de acuerdo a cada sistema operativo:
 
 
 ### Nota
-   [play with docker](https://labs.play-with-docker.com)|
-
-
+En caso no cuentas con una computadora personal / laptop para instalar Docker, te recomendados utilizar el siguiente ambiente virtual online: https://labs.play-with-docker.com
 
 ### 4- Estas Listo! 
 Ya puedes realizar el laboratorio, los pasos a seguir los encuentras [aqui](workshop.md)
