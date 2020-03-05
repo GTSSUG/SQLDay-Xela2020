@@ -14,12 +14,12 @@ Descarga e instala [Visual Studio Code](https://code.visualstudio.com/), esta he
 
 ![VS Code Screen](https://azurecomcdn.azureedge.net/cvt-453347b70b4e6e4007999f04bf1804aa2ca553811c77d7d7f8841c55e8e5a409/images/page/products/visual-studio-code/vs-code_hero.jpg)
 
-### 2- Crea una cuenta en [Docker](https://docker.com).
+### 2- Crea una cuenta en Docker
 Esta cuenta sera utilizada para tener acceso a Docker Hub, donde podemos encontrar el repositorio de imagenes de Docker a utilizar en los ejercicios.
 
 ![Docker Account](https://media.linuxsecurity.com/images/dockerhub.png)
 
-### 3- Descarga e instala [Docker](https://docker.com)
+### 3- Descarga e instala Docker
 Simplemente selecciona tu sistema operativo desde el menu de descarga, luego sigue los pasos del instalador.
 
 Estos son los links de descarga, de acuerdo a cada sistema operativo:
