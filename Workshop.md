@@ -18,7 +18,7 @@ Por favor completa estos pasos en tu computadora personal antes de asistir al ev
 
 ![Docker Account](https://media.linuxsecurity.com/images/dockerhub.png)
 #
-3. Descarga e instala [Docker](https://docker.com)
+3. Descarga e instala [Docker](https://docker.com), localiza tu sistema operativo y has click en el link para cada 
 
 | Sistema |  Link |
 |---------|-------|
