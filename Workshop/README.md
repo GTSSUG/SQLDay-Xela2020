@@ -30,7 +30,7 @@ tambien existe un laboratorio virtual en caso desees hacerlo en linea.
 
 #
 
-4. Estas Listo! Ya puedes realizar los pasos del workshop listados [aqui](workshop.md)
-
+4. Estas Listo! Ya puedes realizar el laboratorio, los pasos a seguir los encuentras [aqui](workshop.md)
 #
+
 Esperamos verte ahi!
