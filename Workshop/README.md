@@ -28,5 +28,9 @@ tambien existe un laboratorio virtual en caso desees hacerlo en linea.
 |Linux |       [Docker en Linux](https://runnable.com/docker/install-docker-on-linux)|
 |Virtual Lab |   [play with docker](https://labs.play-with-docker.com)|
 
-Estas Listo!
+#
+
+4. Estas Listo! Ya puedes realizar los pasos del workshop listados [aqui](workshop.md)
+
+#
 Esperamos verte ahi!
