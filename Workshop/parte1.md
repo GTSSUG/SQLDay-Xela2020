@@ -113,10 +113,12 @@ drwxr-xr-x   12 root     root          4096 Jan 16 21:52 var
 ```
 Ahora intentemos obtener el nombre del host, utilizando el comando <hostname>:
 
+```bash
 / # hostname
 caf0015e7588
+```
 
-Como puedes ver este nombre es exactamente el mismo que el ID de nuestro container al ejecutar la instruction del ejemplo en la seccion [2.2.](#2.4.-Conectarse-dentro-de-un-container).
+Como puedes ver este nombre es exactamente el mismo que el ID de nuestro container al ejecutar la instruction del ejemplo en la seccion [2.2.](#22-consultar-el-estado-de-un-container)
 
 Para regresar a la consola de tu maquina personal / laptop, simplemente ejecuta la instruccion <exit>:
 27d343e19637
