@@ -159,9 +159,9 @@ Como puedes observar, el comando no nos retorna informacion esta vez por lo cual
 
 ### 3.2. Borrar una imagen
 
-Quizas y esto te parezca confuso en este momento, pero una vez hayas completado este taller es muy probable que tengas que limpiar los recursos utilizados. Es por eso que se recomienda borrar todas aquellas imagenes de Docker que ya no estan en uso.
+Continuando con la limpieza de nuestro ambiente, nos queda como ultimo punto borrar la imagen de Docker que ya no esta en uso (Alpine).
 
-Para poder realizar esta operacion debemos conocer el ID de la imagen a borrar, pero eso no es problema esa informacion ya la obtuvimos en el ejemplo anterior. Como puedes ver el ID para la imagen *alpine* es *e7d92cdc71fe* en nuestro ambiente de Docker. Por lo que tenemos que ejecutar el comando <docker rmi> que significa *remove image* (borrar imagen) seguido del ID en cuestion.
+Para poder realizar esta operacion debemos conocer el ID de la imagen a borrar, pero eso no es problema esa informacion ya la obtuvimos en el ejemplo [1.3.](#13-listar-imagenes). Como puedes ver el ID para la imagen *alpine* es *e7d92cdc71fe* en nuestro ambiente de Docker. Por lo que tenemos que ejecutar el comando <docker rmi> que significa *remove image* (borrar imagen) seguido del ID en cuestion.
 
 Asi es como se ve en la practica:
 
