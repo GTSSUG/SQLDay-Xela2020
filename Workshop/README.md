@@ -37,7 +37,7 @@ En caso no cuentas con una computadora personal / laptop para instalar Docker, t
 ### 4- Estas Listo! 
 Ya puedes trabajar en cualquier de los dos talleres practicos:
 
-[1- Introduccion a Docker](./Introduccion.md)
+[1- Introduccion a Docker](./Introduccion.md)  
 [2- Creando mi primer hola mundo](./HolaMundo.md)
 
 Esperamos que estos talleres hayan sido de mucha ayuda, esto es solo una pequeña introduccion al mundo de containers. Te recomendamos mucho consultar la documentacion de Docker en caso estes interesado en aprender mas.
