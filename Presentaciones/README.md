@@ -12,7 +12,6 @@ DevOps una cultura que permite escalar la agilidad | [Yolanda López](./files/De
 Cloud Computing con Microsoft Azure | [Jose Ordoñez](./files/files/Cloud%20Computing%20Azure%20-%20Jose%20Ordoñez.pdf)
 Conociendo la plataforma .NET Core | [Geovani De Leon](./files/)
 
-
 # ¿Dudas? 
 Para más información y registro de este evento click [aqui](https://gtssug-sqlday-xela2020.eventbrite.com).  
 Síguenos en [Facebook](https://www.facebook.com/groups/gtssug/) para conocer más acerca de este y otros eventos.
