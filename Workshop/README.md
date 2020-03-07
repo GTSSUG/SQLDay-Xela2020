@@ -5,7 +5,7 @@
 - El sistema operativo a utilizarse puede ser Windows, Linux o macOS.
 - El contenido de este taller esta creado con el objetivo de proveer ejemplos practicos a traves de sofware gratuito u open source.
 
-## Pasos para la preparacion del laboratorio
+## Pasos para la preparacion del taller
 
 Te recomendamos completar estos pasos lo antes posible, ayudara a aprovechar de mejor manera el tiempo durante el espacio destinado a este taller el dia del evento.
 
@@ -35,9 +35,12 @@ Estos son los links de descarga, de acuerdo a cada sistema operativo:
 En caso no cuentas con una computadora personal / laptop para instalar Docker, te recomendados utilizar el siguiente ambiente virtual online: https://labs.play-with-docker.com
 
 ### 4- Estas Listo! 
-Ya puedes realizar el laboratorio, los pasos a seguir los encuentras [aqui](workshop.md)
+Ya puedes trabajar en cualquier de los dos talleres practicos:
 
-Esperamos verte ahi!
+[1- Introduccion a Docker]()
+[2- Creando mi primer hola mundo]()
+
+Esperamos que estos talleres hayan sido de mucha ayuda, esto es solo una pequeña introduccion al mundo de containers. Te recomendamos mucho consultar la documentacion de Docker en caso estes interesado en aprender mas.
 
 # ¿Dudas? 
 Para más información y registro de este evento click [aqui](https://gtssug-sqlday-xela2020.eventbrite.com).  
