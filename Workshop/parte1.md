@@ -1,74 +1,111 @@
-# Parte 1: Introducción a comandos básicos de Docker
-Bienvenido a este taller básico de Docker, esta divido en varios pasos, para que tengas una introducción rápida al uso de Docker para crear contenedores.
+# Introducción a Docker
+Bienvenido a este taller de introduccion a Docker. Esta primera parte te ayudara a comprender los comandos basicos de Docker, utilizaremos el cliente de Docker para realizar tareas como descarga de imagenes, creacion y administracion de containers.
 
-## Paso 1: Bajar imágenes del repositorio de Docker en específico la de Alpine
-Para bajar una imagen utilizamos el comando docker pull, en este caso bajaremos la imagen de Ubuntu 18.04 para esto ejecutamos el comando:
-```
-docker pull ubuntu:18.04
-```
-Donde ubuntu es el repositorio y el tag (versión de la imagen) a bajar es 18.04, para mayor referencia puedes visitar 
-https://hub.docker.com/ y bajar la imagen y versión que necesites.
-## Paso 2: Crear container con Docker y administrarlo
-Para crear una imagen debes de utilizar el comando docker run, en este caso crearemos un container con Ubuntu 18.04 y ejecutaremos dentro el comando /bin/bash, el cual es una consola o terminal, nótese que al terminar la ejecución del /bin/bash con exit, el comando con el que fue creado el container termina su ejecución y el container es finalizado con el estado exit(0), finalizado más no eliminado.
-```
-docker run -it ubuntu:18.04 /bin/bash
-```
-Al ser creado el container creara un identificador único, el cual puedes obtener cuando se coloca el nuevo prompt, al terminar de ejecutar el comando anterior, verás algo como:
-```
-root@e6b272bfcbc2:/#
-```
-Puedes realizar distintas operaciones con este id, regularmente solo necesitarás las primeras 3 o 4 letras del mismo. 
+## 1. Como descargar una imagen de Docker
 
-Continuando, luego ejecuta dentro del container el comando ls para mostrar los archivos actuales en la carpeta que te encuentres
-```
-ls
+### 1.1. Loguearse a Docker Hub
+Como primer paso, debemos loguearnos a Docker Hub utilizando el usuario y password definido al momento de la creacion de la cuenta.
+
+Ejecutemos el siguiente comando:
+```bash
+docker login
 ```
 
-En otra terminal ingresa y ejecuta el comando docker ps -a podrás ver que dicho container se encuentra en estado activo: verás una salida como la siguiente:
+### 1.2. Descargar una imagen
+Una vez logueados a Docker, tendremos acceso a Docker Hub. Esto nos permite descargar una imagen del repositorio publico, la cual utilizaremos despues para crear un container. 
+
+En el siguiente ejemplo descargaremos la imagen de Alpine:
+
+```bash
+docker pull alpine:latest
 ```
+Como puedes ver el comando esta compuesto de dos partes:
+
+>\<nombre imagen> : \<version>
+
+Puedes consultar el listado de imagenes disponible en el repositorio publico [aqui](https://hub.docker.com/search?q=&type=image), a esta combinacion de imagen + version se le llama _tag_.
+
+En nuestro caso, escogimos la ultima version de Alpine. Siendo Alpine la imagen de Docker que nos permite ejecutar una distribucion de Linux muy ligera, la imagen tan solo ocupa 5 MB's.
+
+### 1.3. Listar imagenes
+
+Si queremos consultar el nombre, ID y tamaño de nuestras imagenes descargadas podemos utilizar el siguiente comando:
+
+```bash
+docker images alpine
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+alpine              latest              e7d92cdc71fe        7 weeks ago         5.59MB
+```
+
+## 2. Como crear y administrar un container 
+
+### 2.1. Crear un container
+En el siguiente ejemplo utilizaremos la imagen (Alpine) que fue descargada en el paso anterior. El objetivo es crear un container llamado -Xela2020_, con el cual podremos practicar diversas tareas administrativas como detener, iniciar e incluso borrar el container.
+
+A continuacion te presentamos el ejemplo que te ayudar a crear el container:
+
+```bash
+docker create -t -i --name xela2020 alpine
+caf0015e7588d69cd16199b9e98d6749bf2cc1bf004e4ba2ce68332992899624
+```
+**Felicitaciones, has creado tu primer container!** No te preocupes si lo unico que viste desplegado en pantalla fue un codigo alfanumerico, esto es simplemente el ID asignado a tu container. Este ID puede ser utilizado para fines administrativos pero en este ejemplo decidimos ponerle un nombre al container (opcional) para hacer mas facil la interaccion utilizando dicho nombre.
+ 
+### 2.2. Consultar el estado de un container
+El cliente de Docker se caracteriza por retornar informacion de la manera mas simple posible, por lo cual te preguntaras.
+Existe alguna manera de consultar el estado actual de mi container? La respuesta es si, y como es de esperarse con Docker es muy sencillo.
+
+El comando <docker ps> puede ser utilizado para consultar el estado de uno o todos containers existentes en mi implementacion de Docker. Pero dicho comando por default no retornara informacion para containers que esten actualmente detenidos o solo creados. Por lo cual tendremos que utilizar la opcion <-a> la cual nos ayuda a listar todos los containers sin importar su estado.
+
+Ejecuta la siguiente instruccion para consultar el estado de tu container _Xela2020_:
+
+```bash
 docker ps -a
+CONTAINER ID        IMAGE       COMMAND         CREATED              STATUS         PORTS       NAMES
+caf0015e7588        alpine      "/bin/sh"       About a minute ago   Created                    xela2020
 ```
-![Alt text](img/ps1.png?raw=true "Up time")
 
-Luego en la línea de comandos del container escribe exit, para salir y finalizar el container
+Como puedes observar, el estado de nuestro container es _Created_ por lo cual confirmamos que fue creado satisfactoriamente.
+
+### 2.3. Iniciar un container
+Este paso es bastante sencillo y rapido, nuestro objeto es iniciar el container creado en el paso anteriores. Para esto, utilizaremos el comando <docker start> seguido del nombre de nuestro container _Xela2020_.
+
+```bash
+docker start xela2020
+xela2020
 ```
-exit 
+Bastante rapido, verdad? Esta es una de las grandes ventajas de trabajar con containers. El comando nos retorna el nombre de nuestro container afirmando que nuestro container fue iniciado.
+
+### 2.4. Detener un container
+En un momento te podras dar cuenta que no hay mucha diferencia entre iniciar o detener un container. Para proceder con este paso, vamos a utilizar el comando <docker stop> seguido del nombre de nuestro container _Xela2020_.
+
+```bash
+docker stop xela2020
 ```
-Ahora revisa el nuevamente los containers corriendo en otra terminal con:
-```
+De nuevo el comando nos retorna el nombre de nuestro container, pero ahora podremos utilizar el comando <docker ps -a> para confirmar que realmente si este detenido:
+
+```bash
 docker ps -a
+CONTAINER ID        IMAGE       COMMAND         CREATED              STATUS                         PORTS       NAMES
+caf0015e7588        alpine      "/bin/sh"       About a minute ago   Exited (137) 11 seconds ago                xela2020
 ```
-![Alt text](img/ps2.png?raw=true "exit")
 
-Ahora verás que el estado es exit, es decir la ejecución del container finalizo, pero no ha sido destruido.
+### 2.5. Borrar un container
+Muy bien! A este punto ya hemos creado, iniciado y detenido nuestro container llamada _Xela2020_. Ahora es el turno de borrarlo, al igual que los ejemplos anteriores este paso es muy sencillo. 
 
-Ahora para volver a iniciar el container ejecuta:
-```
-docker start id_container
-```
-Esto reinicia la ejecución de container con el id que hallas colocado
+Para esto utilizaremos el comando <docker rm> seguido del nombre de nuestro container _Xela2020_. 
 
-Ahora para volver a ingresar, puedes ejecutar
+```bash
+docker rm xela2020
+xela2020
 ```
-docker exec -it id_container /bin/bash
-```
-![Alt text](img/exec.png?raw=true "Exec")
+Listo! el container fue eliminado de nuestra implementacion de Docker, y una vez mas podemos confirmarlo utilizando <docker ps -a>:
 
-Y esto ejecutara una nueva consola adicional a la que está ejecutándose por el /bin/bash inicial, y no afectara si la finalizas con exit, el container seguirá ejecutándose.
-
-## Paso 3: Detener y borrar el container
-Para detener el container puedes ejecutar el comando:
-
-```
-docker stop id_container
-```
-Esto solo detendrá su ejecución pero no lo eliminará
-
-Para poder eliminar y borrar el container debes de ejecutar el siguiente comando:
-```
-docker rm id_container
-```
-Para poder eliminarlo debes detener primero el container. En algunos casos debes usar la opción -f para forzar que se borre, según las dependencias con otras imágenes o containers. Puedes comprabar que ya no exista con el comando:
-```
+```bash
 docker ps -a
+CONTAINER ID        IMAGE       COMMAND         CREATED              STATUS                         PORTS       NAMES
 ```
+
+Como puedes observar, el comando no nos retorna informacion esta vez por lo cual confirmamos que nuestro container _Xela2020_ fue satisfactoriamente borrado.
+
+# Conclusion
+Felicidades! Has completado el taller [Introducción a Docker](). Esperamos que haya sido de mucho ayuda, a la vez te invitamos a seguir con el siguiente taller llamado []().
