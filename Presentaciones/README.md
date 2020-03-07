@@ -9,7 +9,7 @@ Introduccion a containers con Docker | [Marlon Coti](./files/)
 SQL Server - La plataforma de datos moderna | [Carlos Lopez](./files/)
 Análisis de datos con PowerBI y SQL Server | [Vicente Suc](./files/)
 DevOps una cultura que permite escalar la agilidad | [Yolanda López](./files/DevOps-SQLDay.pdf)
-Cloud Computing con Microsoft Azure | [Jose Ordoñez](./files/files/Cloud%20Computing%20Azure%20-%20Jose%20Ordoñez.pdf)
+Cloud Computing con Microsoft Azure | [Jose Ordoñez](./files/Cloud%20Computing%20Azure%20-%20Jose%20Ordoñez.pdf)
 Conociendo la plataforma .NET Core | [Geovani De Leon](./files/)
 
 # ¿Dudas? 
