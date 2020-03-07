@@ -25,11 +25,26 @@ docker run --name HolaMundo1 -p 8080:80 -v datos:/usr/share/nginx/html:ro -d ngi
 ```
 
 ## 3- Eliminar un volumen de datos
-En ocasiones es necesario eliminar volumenes, puede utilizar el siguiente comando para eliminar el volumen que desee:
+Para poder eliminar un volumen de datos es necesario detener el o los contenedores que dependen del volumen de datos y eliminar el o los contenedores que lo utilicen. 
+
+Detenemos el contenedor:
+
+```bash
+docker stop HolaMundo1
+```
+
+Eliminamos el contenedor:
+```bash
+docker rm HolaMundo1
+```
+
+Para eliminar el volumen puede ejecutar el siguiente comando:
 
 ```bash
 docker volume rm datos
 ```
+
+
 
 ## 4- Crear una carpeta en los archivos del usuario (actuará como volumen)
 En ocasiones puede ser de mucha utilidad tener un directorio de fácil acceso para que un contenedor consulte o almacene archivos e información. En la línea de comandos crearemos un directorio para almacenar los archivos del contenedor, crearemos un archivo index.html dentro del directorio que creamos y agregaremos al archivo un "Hola Mundo".
