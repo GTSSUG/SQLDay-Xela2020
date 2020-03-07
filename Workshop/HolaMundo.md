@@ -1,15 +1,53 @@
 # Creando mi primer hola mundo
 
-La gente nueva en Docker a menudo no se da cuenta de que los sistemas de archivos de Docker son temporales por defecto. Si se inicia una imagen de Docker, obtendrá un contenedor que en la superficie se comporta como una máquina virtual. Puedes crear, modificar y borrar archivos. Sin embargo, a diferencia de una máquina virtual, si detiene el contenedor y lo vuelve a iniciar, todos los cambios se perderán: todos los archivos que eliminó anteriormente volverán y los nuevos archivos o ediciones que haya realizado no estarán presentes.
+La gente nueva en Docker a menudo no se da cuenta de que los sistemas de archivos de Docker son temporales por defecto. Si se inicia una imagen de Docker, obtendrá un contenedor que en la superficie se comporta como una máquina virtual. Puedes crear, modificar y borrar archivos. 
+
+Sin embargo, a diferencia de una máquina virtual, si detiene el contenedor y lo vuelve a iniciar, todos los cambios se perderán: todos los archivos que eliminó anteriormente volverán y los nuevos archivos o ediciones que haya realizado no estarán presentes.
+
+En esta segunda parte del taller trabajaremos con volumenes para persistir información de un contenedor:
 
 ## 1- Como crear un volumen
+Como primer paso crearemos un volumen de docker.
+
+Ejecutamos el siguiente comando:
+```bash
+docker volume create datos
+```
+
 ## 2- Crear un contenedor y configurar un volumen
-## 3- Crear una carpeta en los archivos del usuario (actuará como volumen)
-## 4- Crear un contenedor y configurar un directorio como volumen
-## 5- Crear un contenedor Web y configurar un directorio como volumen (Crear un archivo index.html)
+En este paso creamos un contenedor de Nginx y montamos el volumen de datos en modo solo lectura.
+
+Ejecutamos el siguiente comando:
+```bash
+docker run --name HolaMundo1 -p 8080:80 -v datos:/usr/share/nginx/html:ro -d nginx
+```
+
+## 3- Eliminar un volumen de datos
+En ocasiones es necesario eliminar volumenes, puede utilizar el siguiente comando para eliminar el volumen que desee:
+
+```bash
+docker volume rm datos
+```
+
+## 4- Crear una carpeta en los archivos del usuario (actuará como volumen)
+En ocasiones puede ser de mucha utilidad tener un directorio de fácil acceso para que un contenedor consulte o almacene archivos e información. En la línea de comandos crearemos un directorio para almacenar los archivos del contenedor, crearemos un archivo index.html dentro del directorio que creamos y agregaremos al archivo un "Hola Mundo".
+
+```bash
+mkdir datos
+cd datos
+touch index.html
+echo "<html><body><h1>Hola Mundo</h1></body></html>" >> index.html
+```
+
+## 5- Crear un contenedor Web y configurar un directorio como volumen
+Para finalizar, crearemos un contenedor de Nginx llamado HolaMundo2, expondremos el servicio web del puerto 80 del contenedor al puerto 8080 del host local. Adicionalmente montaremos el directorio que acabamos de montar en modo lectura.
+
+```bash
+docker run --name HolaMundo2 -p 8080:80 -v ~/datos:/usr/share/nginx/html:ro -d nginx
+```
 
 # Conclusion
-Felicidades! Has completado el taller [Introducción a Docker](./Introduccion.md). Esperamos que haya sido de mucho ayuda, a la vez te invitamos a seguir con el siguiente taller llamado [Creando mi primer hola mundo](./HolaMundo.md).
+Felicidades! Has completado el taller [Hola Mundo](./HolaMundo.md). Has aprendido a manejar volumenes y crear contenedores web. Esperamos que haya sido de mucho ayuda, a la vez te invitamos a seguir aprendiendo mucho en este mundo de contenedores!
 
 # ¿Dudas? 
 Para más información y registro de este evento click [aqui](https://gtssug-sqlday-xela2020.eventbrite.com).  
