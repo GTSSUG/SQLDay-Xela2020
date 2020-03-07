@@ -75,7 +75,54 @@ xela2020
 ```
 Bastante rapido, verdad? Esta es una de las grandes ventajas de trabajar con containers. El comando nos retorna el nombre de nuestro container afirmando que nuestro container fue iniciado.
 
-### 2.4. Detener un container
+### 2.4. Conectarse dentro de un container
+Tal y como lo aprendiste el dia de hoy, containers nos permiten crear entornos ligeros de tiempo de ejecución que proporcionan a las aplicaciones los archivos, las variables y las bibliotecas que necesitan para ejecutarse. 
+
+A diferencia de las máquinas virtuales, los contenedores utilizan el sistema operativo (SO) de su host en lugar de proporcionar uno propio. Por lo cual podemos conectarnos dentro de un container tal y como si fuera un host mas.
+
+Para demostrar esto, tendremos que utilizar el comando <docker exec> seguido por las opciones <-it> que simplemente nos permite interactuar con nuestro container utilizand una consola interactiva. En el caso de Linux, vamos a elegir la consola "/bin/bas"
+
+Corre el siguiente comando para conectarte dentro de tu container _Xela2020_:
+
+```bash
+docker exec -it xela2020 /bin/sh
+/ # 
+```
+En este momento ya puedes interactuar directamente con tu container, hagamos un ejemplo listando toda las carpetas del path actual utiliznado la instruccion <ls -ll> de Linux:
+
+```bash
+/ # ls -ll
+total 56
+drwxr-xr-x    2 root     root          4096 Jan 16 21:52 bin
+drwxr-xr-x    5 root     root           360 Mar  7 06:24 dev
+drwxr-xr-x    1 root     root          4096 Mar  7 06:24 etc
+drwxr-xr-x    2 root     root          4096 Jan 16 21:52 home
+drwxr-xr-x    5 root     root          4096 Jan 16 21:52 lib
+drwxr-xr-x    5 root     root          4096 Jan 16 21:52 media
+drwxr-xr-x    2 root     root          4096 Jan 16 21:52 mnt
+drwxr-xr-x    2 root     root          4096 Jan 16 21:52 opt
+dr-xr-xr-x  161 root     root             0 Mar  7 06:24 proc
+drwx------    1 root     root          4096 Mar  7 06:27 root
+drwxr-xr-x    2 root     root          4096 Jan 16 21:52 run
+drwxr-xr-x    2 root     root          4096 Jan 16 21:52 sbin
+drwxr-xr-x    2 root     root          4096 Jan 16 21:52 srv
+dr-xr-xr-x   13 root     root             0 Mar  7 06:24 sys
+drwxrwxrwt    2 root     root          4096 Jan 16 21:52 tmp
+drwxr-xr-x    7 root     root          4096 Jan 16 21:52 usr
+drwxr-xr-x   12 root     root          4096 Jan 16 21:52 var
+```
+Ahora intentemos obtener el nombre del host, utilizando el comando <hostname>:
+
+/ # hostname
+caf0015e7588
+
+Como puedes ver este nombre es exactamente el mismo que el ID de nuestro container al ejecutar la instruction del ejemplo en la seccion [2.2.](#2.4.-Conectarse-dentro-de-un-container).
+
+Para regresar a la consola de tu maquina personal / laptop, simplemente ejecuta la instruccion <exit>:
+27d343e19637
+/ # exit
+
+### 2.5. Detener un container
 En un momento te podras dar cuenta que no hay mucha diferencia entre iniciar o detener un container. Para proceder con este paso, vamos a utilizar el comando <docker stop> seguido del nombre de nuestro container _Xela2020_.
 
 ```bash
@@ -89,7 +136,7 @@ CONTAINER ID        IMAGE       COMMAND         CREATED              STATUS     
 caf0015e7588        alpine      "/bin/sh"       About a minute ago   Exited (137) 11 seconds ago                xela2020
 ```
 
-### 2.5. Borrar un container
+### 2.6. Borrar un container
 Muy bien! A este punto ya hemos creado, iniciado y detenido nuestro container llamada _Xela2020_. Ahora es el turno de borrarlo, al igual que los ejemplos anteriores este paso es muy sencillo. 
 
 Para esto utilizaremos el comando <docker rm> seguido del nombre de nuestro container _Xela2020_. 
