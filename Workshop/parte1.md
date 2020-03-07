@@ -37,7 +37,7 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 alpine              latest              e7d92cdc71fe        7 weeks ago         5.59MB
 ```
 
-## 2. Como crear y administrar un container 
+## 2. Como crear y administrar un container  
 
 ### 2.1. Crear un container
 En el siguiente ejemplo utilizaremos la imagen (Alpine) que fue descargada en el paso anterior. El objetivo es crear un container llamado -Xela2020_, con el cual podremos practicar diversas tareas administrativas como detener, iniciar e incluso borrar el container.
@@ -137,8 +137,9 @@ docker ps -a
 CONTAINER ID        IMAGE       COMMAND         CREATED              STATUS                         PORTS       NAMES
 caf0015e7588        alpine      "/bin/sh"       About a minute ago   Exited (137) 11 seconds ago                xela2020
 ```
+## 2. Como limpiar mi ambiente local
 
-### 2.6. Borrar un container
+### 3.1. Borrar un container
 Muy bien! A este punto ya hemos creado, iniciado y detenido nuestro container llamada _Xela2020_. Ahora es el turno de borrarlo, al igual que los ejemplos anteriores este paso es muy sencillo. 
 
 Para esto utilizaremos el comando <docker rm> seguido del nombre de nuestro container _Xela2020_. 
@@ -155,6 +156,28 @@ CONTAINER ID        IMAGE       COMMAND         CREATED              STATUS     
 ```
 
 Como puedes observar, el comando no nos retorna informacion esta vez por lo cual confirmamos que nuestro container _Xela2020_ fue satisfactoriamente borrado.
+
+### 3.2. Borrar una imagen
+
+Quizas y esto te parezca confuso en este momento, pero una vez hayas completado este taller es muy probable que tengas que limpiar los recursos utilizados. Es por eso que se recomienda borrar todas aquellas imagenes de Docker que ya no estan en uso.
+
+Para poder realizar esta operacion debemos conocer el ID de la imagen a borrar, pero eso no es problema esa informacion ya la obtuvimos en el ejemplo anterior. Como puedes ver el ID para la imagen *alpine* es *e7d92cdc71fe* en nuestro ambiente de Docker. Por lo que tenemos que ejecutar el comando <docker rmi> que significa *remove image* (borrar imagen) seguido del ID en cuestion.
+
+Asi es como se ve en la practica:
+
+```bash
+docker rmi e7d92cdc71fe
+Untagged: alpine:latest
+Untagged: alpine@sha256:ab00606a42621fb68f2ed6ad3c88be54397f981a7b70a79db3d1172b11c4367d
+Deleted: sha256:e7d92cdc71feacf90708cb59182d0df1b911f8ae022d29e8e95d75ca6a99776a
+Deleted: sha256:5216338b40a7b96416b8b9858974bbe4acc3096ee60acbc4dfb1ee02aecceb10
+```
+Ahora si consultamos nuestro repositorio local de imagenes, podemos ver que la imagen Alpine ya no es listada:
+
+```bash
+docker images alpine
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+```
 
 # Conclusion
 Felicidades! Has completado el taller [Introducción a Docker](). Esperamos que haya sido de mucho ayuda, a la vez te invitamos a seguir con el siguiente taller llamado []().
