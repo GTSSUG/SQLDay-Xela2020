@@ -15,7 +15,9 @@ docker volume create datos
 ```
 
 ## 2- Crear un contenedor y configurar un volumen
-En este paso creamos un contenedor de Nginx y montamos el volumen de datos en modo solo lectura.
+En este paso creamos un contenedor de Nginx y montamos el volumen de datos en modo solo lectura. Expondremos el contenedor de Nginx a través del puerto 8080 del host local. 
+
+Luego en un navegador web podrás dirigirte a la dirección http://localhost:8080 <- en dependencia del ambiente de docker que estés utilizando.
 
 Ejecutamos el siguiente comando:
 ```bash
@@ -45,6 +47,7 @@ Para finalizar, crearemos un contenedor de Nginx llamado HolaMundo2, expondremos
 ```bash
 docker run --name HolaMundo2 -p 8080:80 -v ~/datos:/usr/share/nginx/html:ro -d nginx
 ```
+En un navegador web podrás dirigirte a la dirección http://localhost:8080 y visualizar el "Hola Mundo".
 
 # Conclusion
 Felicidades! Has completado el taller [Hola Mundo](./HolaMundo.md). Has aprendido a manejar volumenes y crear contenedores web. Esperamos que haya sido de mucho ayuda, a la vez te invitamos a seguir aprendiendo mucho en este mundo de contenedores!
